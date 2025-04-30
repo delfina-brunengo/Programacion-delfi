@@ -1,3 +1,18 @@
 body{border-width: 1px;
 border-color: blue;
 border-style: solid;}
+p{
+    /*fondo de color azul claro*/
+    background-color: rgb(90, 140, 248);
+    /*fuente tipo negrita*/
+    font-weight: 800;
+    /*borde redondead*/
+    border-radius: 10px;
+    border-width: 1px;
+    border-color: red;
+    border-style: dotted;
+    /*agregue espacio interior*/
+    padding: 10px;
+    /*que pasa si agregamos espacio exterior??*/
+    margin: 5px;
+}
