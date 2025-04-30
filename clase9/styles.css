@@ -14,5 +14,18 @@ p{
     /*agregue espacio interior*/
     padding: 10px;
     /*que pasa si agregamos espacio exterior??*/
-    margin: 5px;
+    margin: 5px;}
+
+.descripcion{
+    background-color: rgb(178, 141, 214);
+    border: none
 }
+.tarjeta{ 
+    background-color: rgb(241, 176, 176);
+    border-width: 2px;
+    border-color: blueviolet;
+    border-radius: 5px;
+    width: 200px;
+}
+section > h3 { text-align: center;}
+h4 { text-align: center;}
