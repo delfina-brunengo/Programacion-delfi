@@ -1,13 +1,17 @@
 .bloque {
+    /*contenido*/
     width: 200px;
     height: 100px;
     background-color: aquamarine;
-    margin: 10px;
+    /*relleno pading*/
     padding: 5px;
-    border-width: 3px;
+    /*borde border*/
+    border-width: 5px;
     border-style: solid;
-    border-color: blue;
+    border-color: rgb(172, 172, 245);
+    /*tamaño de la caja: border-box (todo a un hancho y alto) contened-box (ancho y alto solo al contenido)*/
     box-sizing: border-box;
+    margin: 5px;
 }
 .linea { 
     display: inline;
@@ -17,6 +21,5 @@
 .bloque-linea { 
     display: inline-block;
     background-color: aqua;
-    margin: 20px;
-
+    margin: 15px;
 }
