@@ -1,0 +1,26 @@
+.Menu-principal { 
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.contenedor-tarjetas {
+    height: "100%";
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    justify-content: space-evenly;
+
+}
+
+.tarjeta { 
+    background-color: antiquewhite;
+    border-width: 2px;
+    border-style: solid;
+    border-color: aquamarine;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
