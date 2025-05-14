@@ -1,0 +1,41 @@
+* { 
+    box-sizing: border-box;
+}
+
+.body { 
+    width: 500px;
+    height: 10px;
+    font-size: 20px;
+}
+
+.navegacion { 
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    padding: 10px;
+    background-color: lightpink;
+
+/*direccion en fila*/
+    flex-direction: row;
+/*justify eje principal*/
+    justify-content: space-evenly;
+/*align eje secundario*/
+    align-items: center;
+}
+
+@media screen and (max-width: 575px) {
+    bottom { font-size: medium;}
+}
+
+@media screen and (max-width: 325px)
+{ .navegacion { flex-direction: column;}
+}
+
+@media screen and (min-width: 900px) {
+    .navegacion { background-color: blueviolet;}
+}
+
+@media screen and (width: 800px) {
+    .navegacion { background-color: red;}
+}
+

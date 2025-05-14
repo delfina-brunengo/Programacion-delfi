@@ -1,0 +1,20 @@
+.card {
+    border: 3px solid rgb(255, 0, 140);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.card img { 
+    width: 100%;
+    height: auto;
+}
+
+.card-content { 
+    padding: 30px;
+}
+
+@media screen and (min-width: 600px) {
+    .card { display: flex;
+    }
+    .card img { width: 40%;}
+}
