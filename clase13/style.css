@@ -9,7 +9,9 @@
 }
 
 .navegacion { 
+    /* VW significa 100% del ancho de la pantalla*/
     width: 100vw;
+    /*VH significa 100% del alto de la pantalla*/
     /*height: 100vh;*/
     display: flex;
     padding: 10px;
